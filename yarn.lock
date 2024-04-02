@@ -6796,12 +6796,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rnx-kit/react-native-host@npm:^0.4.5":
-  version: 0.4.5
-  resolution: "@rnx-kit/react-native-host@npm:0.4.5"
+"@rnx-kit/react-native-host@npm:^0.4.6":
+  version: 0.4.6
+  resolution: "@rnx-kit/react-native-host@npm:0.4.6"
   peerDependencies:
     react-native: ">=0.66"
-  checksum: 2af669862b4154c04549d7de29f88a80d1a37b12dcf5824d130271f43542fa570e31ea8d5ae6cad0191f90aea9d04401b1872d21a6def7f0bb69721e7f47b64b
+  checksum: e5c7fee0858b448311320968a2aeac1af13dce97f138523fb89edb09d90b131b2e0cfa55ace59ad04bfa8817fb16d2fbaa4f4abb1a28df0731b6a1b253d2c5d8
   languageName: node
   linkType: hard
 
@@ -19207,19 +19207,19 @@ __metadata:
   linkType: hard
 
 "react-native-test-app@npm:^3.1.1":
-  version: 3.3.7
-  resolution: "react-native-test-app@npm:3.3.7"
+  version: 3.5.3
+  resolution: "react-native-test-app@npm:3.5.3"
   dependencies:
-    "@rnx-kit/react-native-host": ^0.4.5
+    "@rnx-kit/react-native-host": ^0.4.6
     ajv: ^8.0.0
     cliui: ^8.0.0
     fast-xml-parser: ^4.0.0
     prompts: ^2.4.0
     semver: ^7.3.5
-    uuid: ^8.3.2
+    uuid: ^9.0.0
     yoctocolors: ^2.0.0
   peerDependencies:
-    "@callstack/react-native-visionos": 0.73
+    "@callstack/react-native-visionos": 0.73 - 0.74
     "@expo/config-plugins": ">=5.0"
     react: 17.0.1 - 18.2
     react-native: 0.66 - 0.74 || >=0.75.0-0 <0.75.0
@@ -19239,7 +19239,7 @@ __metadata:
     init: scripts/init.mjs
     init-test-app: scripts/init.mjs
     install-windows-test-app: windows/test-app.mjs
-  checksum: e9258679ee2942af8828c64d1d2f36a2a173544a117060de9dea76733cb39b7fe7a53c55795f56f2fedb701a5dbb1d6f44f37b7048d8588b889b4fb12b7127cf
+  checksum: 6f0f64a312dcf69e1de4b149dbbcacc46c6b374a221f740d56cb98c130d8890ceb7588a765b0f469464b9f8ea8ee2ff5453811f859fd65cbf73306706f7d5cc8
   languageName: node
   linkType: hard
 
@@ -21781,7 +21781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.0, uuid@npm:^8.3.2":
+"uuid@npm:^8.3.0":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2"
   bin:
